@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper {
+    background-color: #b6cadd;
+    height: 100vh;
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+main {
+    width: 23.5rem;
+    background-color: #ffffff;
+    margin: 5rem auto;
+}
+header {
+    background-color: #618bd4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+header .text {
+    font-size: smaller;
+    font-weight: bolder;
+}
+.xx {
+    color: #ffffff;
+    font-size: larger;
+    opacity: 0.7;
+    cursor: pointer;
+}
+.xx:hover {
+    opacity: 1.0;
+}
+.mark {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #ffffff;
+}
+.container {
+    padding: 1rem;
+}
+.lines {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem .5rem;
+    gap: .7rem;
+}
+.line {
+    width: 8.5rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.today {
+    text-align: center;
+    opacity: 0.2;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.chats {
+    font-size: small;
+}
+.chat2 {
+    background-color: #e4ebf6;
+    padding: .7rem;
+    padding-right: 3rem;
+    width: max-content;
+    margin-top: 5px;
+    border-radius: 3px;
+}
+.chat3 {
+    padding: 0 .5rem;
+    margin-left: 18.8rem;
+    margin-top: 1rem;
+}
+.chat4 {
+    padding: .7rem;
+    background-color:#f1eff1;
+    width: max-content;
+    margin-left: 4.7rem;
+    margin-top: 5px;
+    border-radius: 3px;
+}
+.chat5 {
+    margin-top: 1rem;
+}
+.chat6 {
+    background-color: #e4ebf6;
+    padding: .7rem;
+    width: max-content;
+    margin-top: 5px;
+    border-radius: 3px;
+}
+.chat7 {
+    background-color:#f0aeb0;
+    padding: .7rem;
+    margin-top: 1rem;
+    margin-left: 9.2rem;
+    width: max-content;
+    border-radius: 3px;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    padding-bottom: 0;
+    font-size: smaller;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    margin-top: 1rem;
+}
+.send {
+    color: #2d40c3;
+    font-weight: bolder;
+}
